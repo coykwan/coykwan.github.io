@@ -6,6 +6,15 @@
         <title>Coy Kwan</title>
     </head>
     <body>
-        <h1>Coy Kwan</h1>
+        <h1 id="name"class="purple">Coy Kwan</h1>
+        <script>
+            var h1= document.querySelector("#name");
+            
+            setTimeout(function() {
+                h1.classList = "";
+                    h1.classList.add("pink");
+            }, 2000);
+            
+        </script>
     </body>
 </html>

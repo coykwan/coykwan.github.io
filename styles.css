@@ -1,5 +1,4 @@
 h1 {
-    color: red; 
     font-family: 'Permanent Marker', cursive;
     font-size: 60px;
     text-align: center;
@@ -12,6 +11,7 @@ h1 {
 
 }
 html {
+    background-color: black;
     min-height: 100%;
 }
 body {
@@ -20,4 +20,19 @@ body {
 
 * {
     margin: 0;
+}
+.purple {
+    color: #6e0dd0;
+}
+.orange {
+    color: #ff6600;
+}
+.green {
+    color: #85f52c;
+}
+.yellow {
+   color:  #f3f315;
+}
+.pink {
+    color: #ff0099;
 }
